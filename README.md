@@ -44,3 +44,14 @@ data/ raw & processed datasets
 notebooks/ experiments and analysis
 src/ reusable model code
 reports/ results and summaries
+
+
+
+## Disclaimer
+
+This repository is for research and educational purposes only.  
+Nothing here is financial advice, and performance in backtests does not guarantee future results.
+
+
+
+UNAUTHORIZED USAGE OF THE CONTENTS IS PROHIBITED AND MAY RESULT IN LEGAL ACTIONS

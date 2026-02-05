@@ -16,8 +16,6 @@ Focus: turn statistical learning into deployable decision tools.
 • Gradient Descent (from-scratch optimization)  
 • Iowa Housing Price Prediction (regression pipeline)
 <img width="614" height="455" alt="image" src="https://github.com/user-attachments/assets/ce314b45-97d6-4f2f-8cd3-cb4a2bfb46aa" />
-
-
 → prediction, classification, and model evaluation
 
 ---

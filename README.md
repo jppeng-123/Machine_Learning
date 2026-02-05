@@ -14,7 +14,7 @@ Focus: turn statistical learning into deployable decision tools.
 • k-Nearest Neighbors (KNN)  
 • Support Vector Machines (SVM)  
 • Gradient Descent (from-scratch optimization)  
-• Iowa Housing Price Prediction (regression pipeline)
+• Iowa Housing Price Prediction (regression pipeline)  
 → prediction, classification, and model evaluation
 <img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/b44ffab6-467c-47cd-aba4-6ae3185b95f4" />
 
@@ -24,7 +24,7 @@ Focus: turn statistical learning into deployable decision tools.
 ### 🔍 Unsupervised Learning
 • K-Means clustering  
 • PCA dimensionality reduction  
-• Stock variance decomposition & factor analysis
+• Stock variance decomposition & factor analysis  
 → structure discovery in high-dimensional data
 <img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/4fbc296c-e547-46eb-af51-054fc63bb5b3" />
 
@@ -36,7 +36,7 @@ Focus: turn statistical learning into deployable decision tools.
 • Convolution-based pattern extraction  
 • time-series signal recognition  
 • feature engineering for financial data  
-→ identifying local structures in noisy markets
+→ identifying local structures in noisy markets  
 <img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/8f2ad2f8-292d-462d-90af-54553dd0e3dd" />
 
 

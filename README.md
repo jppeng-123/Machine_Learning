@@ -1,4 +1,4 @@
-# 🤖 Applied Machine Learning Lab
+# 🤖 Applied Financial Machine Learning Lab
 
 Practical machine learning models for prediction, pattern recognition,  
 and quantitative financial analysis.

@@ -65,8 +65,8 @@ Vectorized pipelines · reproducible experiments
 
 ## 📌 Applications
 
-Price change prediction · risk modeling · feature extraction ·  
-market regime detection · quantitative research
+credit risk modeling Price · change prediction · portfolio management
+feature extraction ·  market regime detection · quantitative research
 
 ---
 

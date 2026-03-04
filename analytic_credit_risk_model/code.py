@@ -1522,4 +1522,5 @@ def main():
     _ = run_neural_network_module(X_train, X_val, X_test, yb_train, yb_val, yb_test)
 
 if __name__ == "__main__":
+
     main()

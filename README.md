@@ -11,6 +11,7 @@ Focus: turn statistical learning into deployable decision tools.
 
 ### 📈 Supervised Learning
 • Deep Learning Neural Network 
+
 • Logistic Regression  
 • k-Nearest Neighbors (KNN)  
 • Support Vector Machines (SVM)  

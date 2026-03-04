@@ -19,7 +19,6 @@ Focus: turn statistical learning into deployable decision tools.
 • Iowa Housing Price Prediction (regression pipeline)  
 → prediction, classification, and model evaluation
 <img width="992" height="395" alt="image" src="https://github.com/user-attachments/assets/479874b4-d70f-4795-90c8-862708ace6b2" />
-<img width="614" height="444" alt="image" src="https://github.com/user-attachments/assets/4daf7f97-e63f-487e-87cd-271054957295" />
 
 
 

@@ -138,4 +138,4 @@ The script will generate the synthetic dataset, construct the demand label, hand
 
 ## Disclaimer
 
-This project uses synthetic data and simplified assumptions. It is intended for modeling demonstration purposes only and should not be interpreted as a validated production model or as an official representation of Unison's internal data, underwriting process, or business operations.
+This project uses synthetic data and simplified assumptions. It is intended for modeling demonstration purposes only and should not be interpreted as a validated production model or as an official representation of Unison's internal data, underwriting process, or business operations. UNAUTHORIZED USAGE OF THE CONTENTS IS PROHIBITED AND MAY RESULT IN LEGAL ACTIONS

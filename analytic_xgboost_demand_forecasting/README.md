@@ -1,4 +1,4 @@
-# Market-Level Demand Forecasting for Home Equity Investment
+# Market-Level Demand Uplift Forecasting for Home Equity Investment
 
 ## Overview
 

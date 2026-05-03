@@ -219,7 +219,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost optuna
 Run the Python script from top to bottom:
 
 ```bash
-python demand_forecasting_model.py
+python demand_forecasting.py
 ```
 
 The script will:

@@ -238,7 +238,7 @@ The script will:
 
 ```text
 .
-├── demand_forecasting_model.py
+├── demand_forecasting.py
 ├── README.md
 └── outputs/
     ├── model_metrics.png

@@ -910,9 +910,6 @@ corr_cols = [
 ]
 
 corr_matrix = df[corr_cols].corr()
-# ------------------------------------------------------------
-# 2. Heatmap of Features Involved in High-Correlation Pairs
-# ------------------------------------------------------------
 
 high_corr_threshold = 0.60
 

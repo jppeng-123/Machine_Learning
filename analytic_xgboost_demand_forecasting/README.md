@@ -53,7 +53,7 @@ The final model uses 20 features, including:
 
 Qualified demand is constructed using simplified home equity investment logic.
 
-The code estimates an expected qualified demand value using:
+The code simulates a demand value using:
 
 - Lead volume
 - Expected investment amount
@@ -62,7 +62,7 @@ The code estimates an expected qualified demand value using:
 - Underwriting capacity fit
 - Random demand shocks
 
-Conceptually, the demand value can be summarized as:
+Conceptually, the demand value, or the expected qualified demand value can be summarized as:
 
 ```text
 expected qualified demand value

@@ -1,4 +1,4 @@
-# Unison Synthetic Demand Forecasting Mini Project
+# Demand Forecasting - A Machine Learning Approach
 
 ## Overview
 

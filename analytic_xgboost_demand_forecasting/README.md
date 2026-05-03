@@ -108,7 +108,7 @@ The model is expected to learn patterns from geography, submarket structure, hou
 
 ## Limitations
 
-This is a proof-of-concept model using synthetic data. It is not a production model.
+This is a proof-of-concept model using synthetic data.
 
 Main limitations:
 

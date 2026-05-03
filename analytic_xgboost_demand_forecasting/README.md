@@ -53,7 +53,7 @@ The final model uses 20 features, including:
 
 Qualified demand is constructed using simplified home equity investment logic.
 
-The code simulates a demand value using:
+The code simulates a quantified demand value using:
 
 - Lead volume
 - Expected investment amount

@@ -65,7 +65,7 @@ The code estimates an expected qualified demand value using:
 Conceptually, the demand value can be summarized as:
 
 ```text
-qualified demand value
+expected qualified demand value
 = lead volume
 × expected investment amount
 × cash-out need multiplier

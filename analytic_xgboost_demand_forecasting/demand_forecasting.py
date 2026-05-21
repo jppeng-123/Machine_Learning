@@ -674,33 +674,33 @@ def zscore(series):
     return (series - series.mean()) / std
 
 
-UNISON_RISK_ADJUSTMENT = 0.05
-UNISON_MIN_INVESTMENT = 30000
-UNISON_MAX_INVESTMENT = 500000
-UNISON_MAX_INVESTMENT_PCT = 0.15
+HEI_RISK_ADJUSTMENT = 0.05
+HEI_MIN_INVESTMENT = 30000
+HEI_MAX_INVESTMENT = 500000
+HEI_MAX_INVESTMENT_PCT = 0.15
 
 df["estimated_appraised_value"] = df["avg_home_value"]
 
 df["original_agreed_value"] = (
-    df["estimated_appraised_value"] * (1 - UNISON_RISK_ADJUSTMENT)
+    df["estimated_appraised_value"] * (1 - HEI_RISK_ADJUSTMENT)
 )
 
 df["max_investment_by_pct"] = (
-    df["original_agreed_value"] * UNISON_MAX_INVESTMENT_PCT
+    df["original_agreed_value"] * HEI_MAX_INVESTMENT_PCT
 )
 
 df["max_feasible_investment_amount"] = np.minimum(
     df["max_investment_by_pct"],
-    UNISON_MAX_INVESTMENT,
+    HEI_MAX_INVESTMENT,
 )
 
 df["investment_amount_feasible"] = (
-    df["max_feasible_investment_amount"] >= UNISON_MIN_INVESTMENT
+    df["max_feasible_investment_amount"] >= HEI_MIN_INVESTMENT
 ).astype(int)
 
 df["expected_investment_pct"] = (
     np.random.normal(loc=0.095, scale=0.025, size=len(df))
-).clip(0.05, UNISON_MAX_INVESTMENT_PCT)
+).clip(0.05, HEI_MAX_INVESTMENT_PCT)
 
 df["raw_expected_investment_amount"] = (
     df["original_agreed_value"] * df["expected_investment_pct"]
@@ -708,7 +708,7 @@ df["raw_expected_investment_amount"] = (
 
 df["expected_investment_amount"] = np.where(
     df["investment_amount_feasible"] == 1,
-    np.maximum(df["raw_expected_investment_amount"], UNISON_MIN_INVESTMENT),
+    np.maximum(df["raw_expected_investment_amount"], HEI_MIN_INVESTMENT),
     0,
 )
 
